@@ -1,0 +1,6 @@
+feign:
+   hystrix:
+      enabled: true
+
+zookeeper: 
+    address: 172.20.11.233:2181      

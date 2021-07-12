@@ -1,0 +1,600 @@
+16:45:39.977 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:45:39.977 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:45:40.018 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:45:40.018 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:45:40.055 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:45:40.055 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:45:40.061 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:45:40.061 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:45:40.066 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:45:40.066 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:45:40.077 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-api-gateway-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway,DEFAULT_GROUP'}]
+16:45:40.090 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:45:40.090 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:45:41.128 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=b57a657e-8984-31e5-a190-706203931748
+16:45:41.262 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:45:41.264 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:45:41.268 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:45:41.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer:92- Tomcat initialized with port(s): 8099 (http)
+16:45:41.573 [main] INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8099"]
+16:45:41.574 [main] INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+16:45:41.574 [main] INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.31]
+16:45:41.700 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+16:45:41.700 [main] INFO  o.s.web.context.ContextLoader:284- Root WebApplicationContext: initialization completed in 1591 ms
+16:45:41.783 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:45:41.783 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:45:41.784 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:45:41.784 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:45:41.789 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:45:41.789 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:45:41.789 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:45:41.789 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:45:41.905 [main] WARN  o.s.c.g.c.GatewayClassPathWarningAutoConfiguration:41- 
+
+**********************************************************
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway at this time. Please remove spring-boot-starter-web dependency.
+
+**********************************************************
+
+
+16:45:42.657 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayConfigurationService' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class]: Unsatisfied dependency expressed through method 'gatewayConfigurationService' parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.convert.ConversionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=webFluxConversionService)}
+16:45:42.660 [main] INFO  o.a.catalina.core.StandardService:173- Stopping service [Tomcat]
+16:45:42.672 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:45:42.902 [main] ERROR o.s.boot.SpringApplication:826- Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayConfigurationService' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class]: Unsatisfied dependency expressed through method 'gatewayConfigurationService' parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.convert.ConversionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=webFluxConversionService)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$174/2064883371.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.hamlt.demo.ApiGateWayApplication.main(ApiGateWayApplication.java:21)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.convert.ConversionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=webFluxConversionService)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 20 common frames omitted
+16:48:35.946 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:48:35.946 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:48:35.980 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:48:35.980 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:48:36.013 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:48:36.013 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:48:36.017 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:48:36.017 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:48:36.023 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:48:36.023 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:48:36.036 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-api-gateway-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway,DEFAULT_GROUP'}]
+16:48:36.041 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:48:36.041 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:48:36.713 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9a3136f5-f0a1-3baa-ae9d-44143e509c33
+16:48:36.764 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:48:36.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:48:36.769 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:48:37.072 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:48:37.072 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:48:37.072 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:48:37.072 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:48:37.078 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:48:37.078 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:48:37.078 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:48:37.078 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:48:37.633 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [After]
+16:48:37.633 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Before]
+16:48:37.633 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Between]
+16:48:37.634 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Cookie]
+16:48:37.634 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Header]
+16:48:37.634 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Host]
+16:48:37.634 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Method]
+16:48:37.634 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Path]
+16:48:37.635 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Query]
+16:48:37.635 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+16:48:37.635 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [RemoteAddr]
+16:48:37.635 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Weight]
+16:48:37.635 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+16:48:37.866 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+16:48:37.873 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+16:48:37.873 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+16:48:37.875 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+16:48:37.875 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+16:48:37.875 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+16:48:37.875 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+16:48:38.398 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.398 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.398 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.398 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.405 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.405 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.413 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+16:48:38.413 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+16:48:38.414 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.414 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:48:38.724 [main] INFO  o.s.b.w.e.netty.NettyWebServer:89- Netty started on port(s): 8099
+16:48:38.782 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+16:48:38.782 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+16:48:38.786 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+16:48:38.786 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+16:48:38.791 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+16:48:38.791 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+16:48:38.799 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:48:38.799 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:48:38.805 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:48:38.805 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:48:38.808 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 4.334 seconds (JVM running for 5.066)
+16:48:38.808 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 4.334 seconds (JVM running for 5.066)
+16:48:38.812 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.812 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.813 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+16:48:38.813 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+16:48:38.814 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.814 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+16:48:38.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+16:48:38.814 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.814 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:48:38.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+16:48:38.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+16:48:39.799 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626079719792,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":616494786425252} from /10.150.129.28
+16:48:39.799 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626079719792,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":616494786425252} from /10.150.129.28
+16:50:56.493 [reactor-http-nio-2] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler:122- [d4310cdc-1]  500 Server Error for HTTP POST "/test/reqTest"
+java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP POST "/test/reqTest" [ExceptionHandlingWebHandler]
+Stack trace:
+		at java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+		at java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+		at com.hamlt.demo.filter.CustomGlobalFilter.filter(CustomGlobalFilter.java:41)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$GatewayFilterAdapter.filter(FilteringWebHandler.java:138)
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:118)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain$$Lambda$665/231074641.get(Unknown Source)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:55)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4110)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:851)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:144)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:851)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.innerResult(MonoFilterWhen.java:193)
+		at reactor.core.publisher.MonoFilterWhen$FilterWhenInner.onNext(MonoFilterWhen.java:260)
+		at reactor.core.publisher.MonoFilterWhen$FilterWhenInner.onNext(MonoFilterWhen.java:228)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.FluxZip$ZipSingleCoordinator.next(FluxZip.java:396)
+		at reactor.core.publisher.FluxZip$ZipSingleSubscriber.onNext(FluxZip.java:500)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:192)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:103)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:160)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1706)
+		at reactor.core.publisher.FluxCallable.subscribe(FluxCallable.java:49)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:55)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:103)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:160)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+		at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:419)
+		at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:209)
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:367)
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:363)
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:489)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:90)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:214)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.lang.Thread.run(Thread.java:745)
+16:52:40.418 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+16:52:40.418 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+16:52:40.419 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+16:52:40.419 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+16:52:40.419 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+16:52:40.419 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+16:52:40.422 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+16:52:40.422 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+16:52:49.631 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:52:49.631 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+16:52:49.670 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:52:49.670 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+16:52:49.708 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:52:49.708 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+16:52:49.713 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:52:49.713 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+16:52:49.718 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:52:49.718 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+16:52:49.730 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-api-gateway-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway,DEFAULT_GROUP'}]
+16:52:49.735 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:52:49.735 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+16:52:50.354 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9a3136f5-f0a1-3baa-ae9d-44143e509c33
+16:52:50.404 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:52:50.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:52:50.409 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:52:50.664 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:52:50.664 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:52:50.664 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:52:50.664 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:52:50.668 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:52:50.668 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+16:52:50.669 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:52:50.669 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:52:51.184 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [After]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Before]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Between]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Cookie]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Header]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Host]
+16:52:51.185 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Method]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Path]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Query]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [RemoteAddr]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Weight]
+16:52:51.186 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+16:52:51.327 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+16:52:51.333 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+16:52:51.333 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+16:52:51.337 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+16:52:51.337 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+16:52:51.339 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+16:52:51.339 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+16:52:51.766 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.766 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.766 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.766 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.773 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.773 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.781 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+16:52:51.781 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+16:52:51.781 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.781 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+16:52:51.957 [main] INFO  o.s.b.w.e.netty.NettyWebServer:89- Netty started on port(s): 8099
+16:52:52.027 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+16:52:52.027 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+16:52:52.032 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+16:52:52.032 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+16:52:52.037 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+16:52:52.037 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+16:52:52.045 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 3.946 seconds (JVM running for 4.704)
+16:52:52.045 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 3.946 seconds (JVM running for 4.704)
+16:52:52.050 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.050 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.051 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+16:52:52.051 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+16:52:52.051 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.051 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.051 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+16:52:52.051 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+16:52:52.052 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.052 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+16:52:52.052 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+16:52:52.052 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+16:52:52.803 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:52:52.803 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:52:52.805 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:52:52.805 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+16:52:53.042 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626079973038,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":616747851489084} from /10.150.129.28
+16:52:53.042 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626079973038,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":616747851489084} from /10.150.129.28
+16:53:12.987 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+16:53:12.987 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+16:53:13.011 [reactor-http-nio-2] INFO  c.n.loadbalancer.BaseLoadBalancer:197- Client: provider-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+16:53:13.011 [reactor-http-nio-2] INFO  c.n.loadbalancer.BaseLoadBalancer:197- Client: provider-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+16:53:13.034 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:222- Using serverListUpdater PollingServerListUpdater
+16:53:13.034 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:222- Using serverListUpdater PollingServerListUpdater
+16:53:13.051 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+16:53:13.051 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+16:53:13.053 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:150- DynamicServerListLoadBalancer for client provider-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[10.150.129.28:8081],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.150.129.28:8081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4036ccf3
+16:53:13.053 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:150- DynamicServerListLoadBalancer for client provider-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[10.150.129.28:8081],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.150.129.28:8081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4036ccf3
+16:53:14.041 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+16:53:14.041 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:04:43.971 [Thread-29] INFO  c.n.l.PollingServerListUpdater:53- Shutting down the Executor Pool for PollingServerListUpdater
+17:04:43.971 [Thread-29] INFO  c.n.l.PollingServerListUpdater:53- Shutting down the Executor Pool for PollingServerListUpdater
+17:04:43.973 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+17:04:43.973 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+17:04:43.974 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+17:04:43.974 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+17:04:43.974 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+17:04:43.974 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+17:04:43.977 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+17:04:43.977 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+17:07:41.190 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+17:07:41.190 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+17:07:41.239 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+17:07:41.239 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+17:07:41.270 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+17:07:41.270 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway] & group[DEFAULT_GROUP]
+17:07:41.274 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+17:07:41.274 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[api-gateway.yaml] & group[DEFAULT_GROUP]
+17:07:41.280 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+17:07:41.280 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+17:07:41.291 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-api-gateway-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-api-gateway,DEFAULT_GROUP'}]
+17:07:41.297 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+17:07:41.297 [main] INFO  com.hamlt.demo.ApiGateWayApplication:655- The following profiles are active: local
+17:07:41.922 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9a3136f5-f0a1-3baa-ae9d-44143e509c33
+17:07:41.971 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:07:41.972 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:07:41.976 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330- Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:07:42.248 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+17:07:42.248 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+17:07:42.249 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:07:42.249 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:07:42.254 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+17:07:42.254 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+17:07:42.254 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:07:42.254 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+17:07:42.841 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [After]
+17:07:42.842 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Before]
+17:07:42.842 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Between]
+17:07:42.843 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Cookie]
+17:07:42.844 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Header]
+17:07:42.844 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Host]
+17:07:42.844 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Method]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Path]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Query]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [RemoteAddr]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [Weight]
+17:07:42.845 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator:139- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+17:07:43.016 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+17:07:43.021 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+17:07:43.021 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+17:07:43.022 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+17:07:43.022 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+17:07:43.023 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+17:07:43.023 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+17:07:43.412 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.412 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.412 [main] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.412 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.417 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.417 [Nacso-Watch-Task-Scheduler-1] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.426 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+17:07:43.426 [main] WARN  com.alibaba.nacos.client.naming:145- write DEFAULT_GROUP%40%40provider-service conflict;retry time: 1
+17:07:43.427 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.427 [main] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:07:43.624 [main] INFO  o.s.b.w.e.netty.NettyWebServer:89- Netty started on port(s): 8099
+17:07:43.688 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+17:07:43.688 [main] INFO  com.alibaba.nacos.client.naming:58- [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.150.129.28","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8099,"scheduled":false,"serviceName":"DEFAULT_GROUP@@api-gateway","stopped":false,"weight":1.0} to beat map.
+17:07:43.692 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+17:07:43.692 [main] INFO  com.alibaba.nacos.client.naming:175- [REGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec registering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"weight":1.0}
+17:07:43.698 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+17:07:43.698 [main] INFO  c.a.c.n.r.NacosServiceRegistry:65- nacos registry, DEFAULT_GROUP api-gateway 10.150.129.28:8099 register finished
+17:07:43.706 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 3.876 seconds (JVM running for 4.669)
+17:07:43.706 [main] INFO  com.hamlt.demo.ApiGateWayApplication:61- Started ApiGateWayApplication in 3.876 seconds (JVM running for 4.669)
+17:07:43.712 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.712 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.714 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+17:07:43.714 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+17:07:43.715 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.715 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.715 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+17:07:43.715 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway-local.yaml, group=DEFAULT_GROUP, cnt=1
+17:07:43.715 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.715 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] api-gateway+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+17:07:43.716 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+17:07:43.716 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=api-gateway, group=DEFAULT_GROUP, cnt=1
+17:07:44.442 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:07:44.442 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:164- new ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:07:44.443 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:07:44.443 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:07:44.706 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626080864699,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617639350936181} from /10.150.129.28
+17:07:44.706 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[{\"valid\":true,\"marked\":false,\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceId\":\"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway\",\"port\":8099,\"healthy\":true,\"ip\":\"10.150.129.28\",\"clusterName\":\"DEFAULT\",\"weight\":1.0,\"ephemeral\":true,\"serviceName\":\"DEFAULT_GROUP@@api-gateway\",\"enabled\":true}],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"3aec5ec88713d86d33fc6771ca5bebf1\",\"lastRefTime\":1626080864699,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617639350936181} from /10.150.129.28
+17:08:06.381 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:06.381 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:06.400 [reactor-http-nio-2] INFO  c.n.loadbalancer.BaseLoadBalancer:197- Client: provider-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+17:08:06.400 [reactor-http-nio-2] INFO  c.n.loadbalancer.BaseLoadBalancer:197- Client: provider-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+17:08:06.409 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:222- Using serverListUpdater PollingServerListUpdater
+17:08:06.409 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:222- Using serverListUpdater PollingServerListUpdater
+17:08:06.423 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:06.423 [reactor-http-nio-2] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:06.425 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:150- DynamicServerListLoadBalancer for client provider-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[10.150.129.28:8081],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.150.129.28:8081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4661ded0
+17:08:06.425 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer:150- DynamicServerListLoadBalancer for client provider-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=provider-service,current list of Servers=[10.150.129.28:8081],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.150.129.28:8081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@4661ded0
+17:08:07.414 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:07.414 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty:115- Flipping property: provider-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+17:08:20.069 [reactor-http-nio-2] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler:122- [55e20d26-2]  500 Server Error for HTTP POST "/test/reqTest"
+java.lang.Exception: token已过期
+	at com.hamlt.demo.filter.CustomGlobalFilter.getUserName(CustomGlobalFilter.java:63)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP POST "/test/reqTest" [ExceptionHandlingWebHandler]
+Stack trace:
+		at com.hamlt.demo.filter.CustomGlobalFilter.getUserName(CustomGlobalFilter.java:63)
+		at com.hamlt.demo.filter.CustomGlobalFilter.filter(CustomGlobalFilter.java:30)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$GatewayFilterAdapter.filter(FilteringWebHandler.java:138)
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:118)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain$$Lambda$663/1546862400.get(Unknown Source)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:55)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4110)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:851)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:144)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:274)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:851)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:173)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.innerResult(MonoFilterWhen.java:193)
+		at reactor.core.publisher.MonoFilterWhen$FilterWhenInner.onNext(MonoFilterWhen.java:260)
+		at reactor.core.publisher.MonoFilterWhen$FilterWhenInner.onNext(MonoFilterWhen.java:228)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.FluxZip$ZipSingleCoordinator.next(FluxZip.java:396)
+		at reactor.core.publisher.FluxZip$ZipSingleSubscriber.onNext(FluxZip.java:500)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:192)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:103)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:160)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1706)
+		at reactor.core.publisher.FluxCallable.subscribe(FluxCallable.java:49)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:55)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onNext(FluxContextStart.java:103)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:330)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1705)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:160)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:252)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+		at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:419)
+		at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:209)
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:367)
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:363)
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:489)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:90)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:214)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.lang.Thread.run(Thread.java:745)
+17:09:53.665 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@provider-service\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[],\"name\":\"DEFAULT_GROUP@@provider-service\",\"checksum\":\"d0b446fa6c7ac473c707a34c7c6c0195\",\"lastRefTime\":1626080993662,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617768309750945} from /10.150.129.28
+17:09:53.665 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@provider-service\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[],\"name\":\"DEFAULT_GROUP@@provider-service\",\"checksum\":\"d0b446fa6c7ac473c707a34c7c6c0195\",\"lastRefTime\":1626080993662,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617768309750945} from /10.150.129.28
+17:09:53.666 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:170- removed ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:09:53.666 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:170- removed ips(1) service: DEFAULT_GROUP@@provider-service -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8081#DEFAULT#DEFAULT_GROUP@@provider-service","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@provider-service","weight":1.0}]
+17:09:53.667 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:200- current ips:(0) service: DEFAULT_GROUP@@provider-service -> []
+17:09:53.667 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:200- current ips:(0) service: DEFAULT_GROUP@@provider-service -> []
+17:09:54.119 [Thread-28] INFO  c.n.l.PollingServerListUpdater:53- Shutting down the Executor Pool for PollingServerListUpdater
+17:09:54.119 [Thread-28] INFO  c.n.l.PollingServerListUpdater:53- Shutting down the Executor Pool for PollingServerListUpdater
+17:09:54.121 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+17:09:54.121 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:80- De-registering from Nacos Server now...
+17:09:54.122 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+17:09:54.122 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:71- [BEAT] removing beat: DEFAULT_GROUP@@api-gateway:10.150.129.28:8099 from beat map.
+17:09:54.122 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+17:09:54.122 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming:197- [DEREGISTER-SERVICE] cc08db4d-26de-4db8-946a-fefbe4851fec deregistering service DEFAULT_GROUP@@api-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{},"port":8099,"weight":1.0}
+17:09:54.125 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+17:09:54.125 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry:100- De-registration finished.
+17:09:54.514 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:170- removed ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:09:54.514 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:170- removed ips(1) service: DEFAULT_GROUP@@api-gateway -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.150.129.28#8099#DEFAULT#DEFAULT_GROUP@@api-gateway","ip":"10.150.129.28","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8099,"serviceName":"DEFAULT_GROUP@@api-gateway","weight":1.0}]
+17:09:54.515 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(0) service: DEFAULT_GROUP@@api-gateway -> []
+17:09:54.515 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming:200- current ips:(0) service: DEFAULT_GROUP@@api-gateway -> []
+17:09:55.131 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"84ed3fafc9acc9a92e3a3257e08970bf\",\"lastRefTime\":1626080995127,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617769773888299} from /10.150.129.28
+17:09:55.131 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming:76- received push data: {"type":"dom","data":"{\"metadata\":{},\"dom\":\"DEFAULT_GROUP@@api-gateway\",\"cacheMillis\":10000,\"useSpecifiedURL\":false,\"hosts\":[],\"name\":\"DEFAULT_GROUP@@api-gateway\",\"checksum\":\"84ed3fafc9acc9a92e3a3257e08970bf\",\"lastRefTime\":1626080995127,\"env\":\"\",\"clusters\":\"\"}","lastRefTime":617769773888299} from /10.150.129.28

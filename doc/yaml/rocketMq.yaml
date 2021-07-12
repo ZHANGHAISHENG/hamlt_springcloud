@@ -1,0 +1,6 @@
+rocketmq:
+    name-server: 172.20.11.233:9876;172.20.11.233:9877
+    producer: 
+        group: group-dev
+    consumer:
+        group: group-dev

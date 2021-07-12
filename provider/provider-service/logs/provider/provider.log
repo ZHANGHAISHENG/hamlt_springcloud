@@ -1,0 +1,1155 @@
+11:09:56.741 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:09:56.741 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:09:56.865 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:09:56.865 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:09:56.965 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:09:56.965 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:09:56.985 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:09:56.985 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:09:56.993 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:09:56.993 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:09:57.004 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:09:57.027 [main] INFO  com.hamlt.demo.UserTest:655- The following profiles are active: local
+11:09:57.027 [main] INFO  com.hamlt.demo.UserTest:655- The following profiles are active: local
+11:09:58.068 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:09:58.186 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=a9a85072-109b-3d90-83cc-299409ab7a52
+11:09:59.657 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:09:59.657 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:09:59.658 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:09:59.658 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:09:59.717 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:09:59.717 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:09:59.718 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:09:59.718 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:10:00.159 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:10:00.839 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:10:00.859 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:10:00.859 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:10:00.860 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:10:00.860 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:10:00.861 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:10:00.861 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:10:01.559 [main] INFO  com.hamlt.demo.UserTest:61- Started UserTest in 6.654 seconds (JVM running for 9.144)
+11:10:01.559 [main] INFO  com.hamlt.demo.UserTest:61- Started UserTest in 6.654 seconds (JVM running for 9.144)
+11:10:01.565 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.565 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.573 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:10:01.573 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:10:01.574 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.574 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.574 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:01.574 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:01.577 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.577 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.578 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:01.578 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:01.581 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.581 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:10:01.582 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:01.582 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:10:02.259 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:10:02.259 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:10:03.174 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:10:03.178 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:10:03.178 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:10:03.191 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:10:03.191 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:11:00.951 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:11:00.951 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:11:01.019 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:11:01.019 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:11:01.119 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:11:01.119 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:11:01.129 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:11:01.129 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:11:01.136 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:11:01.136 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:11:01.151 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:11:01.171 [main] INFO  com.hamlt.demo.UserTest:655- The following profiles are active: local
+11:11:01.171 [main] INFO  com.hamlt.demo.UserTest:655- The following profiles are active: local
+11:11:02.135 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:11:02.238 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=a9a85072-109b-3d90-83cc-299409ab7a52
+11:11:03.546 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:11:03.546 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:11:03.546 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:11:03.546 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:11:03.560 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:11:03.560 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:11:03.560 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:11:03.560 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:11:04.021 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:11:04.582 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:11:04.601 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:11:04.601 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:11:04.604 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:11:04.604 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:11:04.605 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:11:04.605 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:11:05.278 [main] INFO  com.hamlt.demo.UserTest:61- Started UserTest in 5.971 seconds (JVM running for 7.902)
+11:11:05.278 [main] INFO  com.hamlt.demo.UserTest:61- Started UserTest in 5.971 seconds (JVM running for 7.902)
+11:11:05.283 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.283 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.291 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:11:05.291 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:11:05.292 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.292 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.296 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.296 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.298 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.298 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.299 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.299 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.300 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.300 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:11:05.300 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.300 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:11:05.844 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:11:05.844 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:11:06.143 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:11:06.145 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:11:06.145 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:11:06.161 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:11:06.161 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:26:53.381 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:26:53.381 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:26:53.445 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:26:53.445 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:26:53.546 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:26:53.546 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:26:53.566 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:26:53.566 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:26:53.571 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:26:53.571 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:26:53.591 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:26:53.609 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:26:53.609 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:26:54.564 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'orderMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+11:26:54.576 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:26:54.687 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=7eb4c512-0f06-3fd9-be32-56bb53906fce
+11:26:55.983 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:26:55.983 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:26:55.984 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:26:55.984 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:26:55.995 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:26:55.995 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:26:55.996 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:26:55.996 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:26:56.454 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:26:57.170 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:26:57.192 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:26:57.192 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:26:57.193 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:26:57.193 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:26:57.195 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:26:57.195 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:26:57.887 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.177 seconds (JVM running for 8.16)
+11:26:57.887 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.177 seconds (JVM running for 8.16)
+11:26:57.893 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.893 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.902 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:26:57.902 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:26:57.902 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.902 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.903 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:57.903 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:57.904 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.904 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.905 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:57.905 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:57.906 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.906 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:26:57.906 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:57.906 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:26:58.476 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:26:58.476 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:26:58.906 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:26:58.909 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:26:58.909 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:26:58.909 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:26:58.909 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:26:58.920 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:26:58.920 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:31:43.145 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:31:43.145 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:31:43.210 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:31:43.210 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:31:43.300 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:31:43.300 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:31:43.327 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:31:43.327 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:31:43.334 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:31:43.334 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:31:43.350 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:31:43.369 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:31:43.369 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:31:44.325 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'orderMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+11:31:44.337 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:31:44.441 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=7eb4c512-0f06-3fd9-be32-56bb53906fce
+11:31:45.713 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:31:45.713 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:31:45.714 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:31:45.714 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:31:45.727 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:31:45.727 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:31:45.727 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:31:45.727 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:31:46.213 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:31:46.743 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:31:46.767 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:31:46.767 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:31:46.768 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:31:46.768 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:31:46.770 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:31:46.770 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:31:47.424 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 5.845 seconds (JVM running for 7.655)
+11:31:47.424 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 5.845 seconds (JVM running for 7.655)
+11:31:47.432 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.432 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.437 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:31:47.437 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:31:47.438 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.438 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.439 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.439 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.440 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.440 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.440 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.440 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.442 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.442 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:31:47.443 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.443 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:31:47.978 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:31:47.978 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:31:48.255 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:31:48.257 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:31:48.257 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:31:48.275 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:31:48.275 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:31:48.276 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:31:48.276 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:35:25.380 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:35:25.380 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:35:25.444 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:35:25.444 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:35:25.531 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:35:25.531 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:35:25.543 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:35:25.543 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:35:25.547 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:35:25.547 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:35:25.557 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:35:25.582 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:35:25.582 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:35:26.518 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+11:35:26.529 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:35:26.632 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9f5a0970-3b2c-34f3-9b79-f4bc6d744fbf
+11:35:28.101 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:35:28.101 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:35:28.103 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:35:28.103 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:35:28.117 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:35:28.117 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:35:28.117 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:35:28.117 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:35:28.638 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:35:29.246 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:35:29.270 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:35:29.270 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:35:29.271 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:35:29.271 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:35:29.272 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:35:29.272 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:35:29.988 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.167 seconds (JVM running for 8.116)
+11:35:29.988 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.167 seconds (JVM running for 8.116)
+11:35:29.995 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:29.995 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:29.999 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:35:29.999 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:35:30.003 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.003 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.004 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.004 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.005 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.005 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.005 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.005 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.006 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.006 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:35:30.007 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.007 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:35:30.679 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:35:30.679 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:35:31.054 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:35:31.056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:35:31.056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:35:31.056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:35:31.056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:35:31.068 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:35:31.068 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:37:00.157 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:37:00.157 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:37:00.242 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:37:00.242 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:37:00.343 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:37:00.343 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:37:00.356 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:37:00.356 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:37:00.360 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:37:00.360 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:37:00.372 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:37:00.392 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:37:00.392 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:37:01.388 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+11:37:01.399 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:37:01.500 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9f5a0970-3b2c-34f3-9b79-f4bc6d744fbf
+11:37:02.796 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:37:02.796 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:37:02.797 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:37:02.797 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:37:02.822 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:37:02.822 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:37:02.823 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:37:02.823 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:37:03.356 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:37:03.965 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:37:03.985 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:37:03.985 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:37:03.986 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:37:03.986 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:37:03.987 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:37:03.987 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:37:04.703 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.281 seconds (JVM running for 8.053)
+11:37:04.703 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.281 seconds (JVM running for 8.053)
+11:37:04.707 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.707 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.715 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:37:04.715 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:37:04.716 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.716 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.717 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:04.717 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:04.724 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.724 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.724 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:04.724 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:04.734 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.734 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:37:04.739 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:04.739 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:37:05.235 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:37:05.235 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:37:05.600 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:37:05.603 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:37:05.603 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:37:05.603 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:37:05.603 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:37:05.616 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:37:05.616 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:38:39.923 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:38:39.923 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+11:38:39.994 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:38:39.994 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+11:38:40.266 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:38:40.266 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+11:38:40.277 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:38:40.277 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+11:38:40.281 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:38:40.281 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+11:38:40.291 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+11:38:40.316 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:38:40.316 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+11:38:41.502 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+11:38:41.514 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+11:38:41.613 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=9f5a0970-3b2c-34f3-9b79-f4bc6d744fbf
+11:38:42.887 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:38:42.887 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:38:42.888 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:38:42.888 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:38:42.900 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:38:42.900 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+11:38:42.901 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:38:42.901 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+11:38:43.387 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+11:38:43.910 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+11:38:43.934 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:38:43.934 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+11:38:43.936 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:38:43.936 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+11:38:43.937 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:38:43.937 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+11:38:44.643 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.568 seconds (JVM running for 8.651)
+11:38:44.643 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 6.568 seconds (JVM running for 8.651)
+11:38:44.654 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.654 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.657 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:38:44.657 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+11:38:44.657 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.657 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.658 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:44.658 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:44.658 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.658 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.659 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:44.659 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:44.666 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.666 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+11:38:44.667 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:44.667 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+11:38:45.290 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:38:45.290 [main] INFO  c.alibaba.druid.pool.DruidDataSource:1010- {dataSource-1} inited
+11:38:45.563 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+11:38:45.565 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:38:45.565 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+11:38:45.566 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:38:45.566 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-1} closing ...
+11:38:45.578 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+11:38:45.578 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2075- {dataSource-1} closed
+14:52:47.337 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:52:47.337 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:52:47.409 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:52:47.409 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:52:47.513 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:52:47.513 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:52:47.540 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:52:47.540 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:52:47.548 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:52:47.548 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:52:47.559 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+14:52:47.578 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:52:47.578 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:52:48.951 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+14:52:48.955 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+14:52:49.431 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:52:49.439 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:52:49.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+14:52:49.632 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:52:49.873 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+14:52:49.883 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+14:52:50.004 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=c91067a9-9799-306b-9f6f-3a4c731ddad1
+14:52:52.284 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+14:52:53.208 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:52:53.208 [redisson-netty-2-32] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:52:54.461 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:52:54.461 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:52:54.462 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:54.462 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:54.479 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:52:54.479 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:52:54.480 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:54.480 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:56.032 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+14:52:57.131 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+14:52:57.166 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:52:57.166 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:52:57.168 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:52:57.168 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:52:57.169 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:52:57.169 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:52:59.185 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+14:52:59.317 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 13.489 seconds (JVM running for 16.18)
+14:52:59.317 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 13.489 seconds (JVM running for 16.18)
+14:52:59.375 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.375 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.377 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:52:59.377 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:52:59.379 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.379 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.380 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.380 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.381 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.381 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.381 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.381 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.382 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.382 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.383 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.383 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.384 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.384 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:52:59.385 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.385 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:52:59.753 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+14:52:59.756 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:52:59.756 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:52:59.756 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:52:59.756 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:54:27.142 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:54:27.142 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:54:27.211 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:54:27.211 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:54:27.531 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:54:27.531 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:54:27.550 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:54:27.550 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:54:27.553 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:54:27.553 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:54:27.565 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+14:54:27.583 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:54:27.583 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:54:28.541 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+14:54:28.548 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+14:54:28.915 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:54:28.921 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:54:28.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+14:54:29.091 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:54:29.353 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+14:54:29.362 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+14:54:29.490 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=c91067a9-9799-306b-9f6f-3a4c731ddad1
+14:54:31.385 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+14:54:32.494 [redisson-netty-2-17] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:54:32.495 [redisson-netty-2-19] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:54:33.538 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:54:33.538 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:54:33.538 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:54:33.538 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:54:33.550 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:54:33.550 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:54:33.551 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:54:33.551 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:54:34.547 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+14:54:35.290 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+14:54:35.323 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:54:35.323 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:54:35.324 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:54:35.324 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:54:35.325 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:54:35.325 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:54:37.272 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+14:54:37.420 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 12.432 seconds (JVM running for 14.384)
+14:54:37.420 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 12.432 seconds (JVM running for 14.384)
+14:54:37.470 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.470 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.473 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:54:37.473 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:54:37.477 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.477 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.478 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.478 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.480 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.480 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.480 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.480 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.483 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.483 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.483 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.483 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.484 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.484 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:54:37.485 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.485 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:54:37.946 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+14:54:37.952 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:54:37.952 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:54:37.952 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:54:37.952 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:57:14.182 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:57:14.182 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+14:57:14.326 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:57:14.326 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+14:57:16.018 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:57:16.018 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+14:57:16.043 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:57:16.043 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+14:57:16.051 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:57:16.051 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+14:57:16.071 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+14:57:16.205 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:57:16.205 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+14:57:17.443 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+14:57:17.447 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+14:57:17.919 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:57:17.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:57:18.012 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 46ms. Found 0 Redis repository interfaces.
+14:57:18.223 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:57:18.498 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+14:57:18.510 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+14:57:18.690 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=85fbbf23-b42a-31cc-9d92-9bb0d1e30840
+14:57:20.643 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+14:57:21.580 [redisson-netty-2-29] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:57:21.580 [redisson-netty-2-17] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+14:57:22.941 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:57:22.941 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:57:22.942 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:22.942 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:22.965 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:57:22.965 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+14:57:22.966 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:22.966 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:24.296 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+14:57:25.166 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+14:57:25.207 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:57:25.207 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+14:57:25.209 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:57:25.209 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+14:57:25.210 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:57:25.210 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+14:57:27.102 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+14:57:27.244 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 18.891 seconds (JVM running for 22.723)
+14:57:27.244 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 18.891 seconds (JVM running for 22.723)
+14:57:27.301 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.301 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.309 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:57:27.309 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+14:57:27.310 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.310 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.311 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.311 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.315 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.315 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.320 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.320 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.322 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.322 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.322 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.322 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.324 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.324 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+14:57:27.325 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.325 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+14:57:27.803 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+14:57:27.811 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:57:27.811 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:57:27.811 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+14:57:27.811 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:09:06.328 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:09:06.328 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:09:06.402 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:09:06.402 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:09:06.514 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:09:06.514 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:09:06.531 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:09:06.531 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:09:06.535 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:09:06.535 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:09:06.546 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+15:09:06.565 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:09:06.565 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:09:07.574 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+15:09:07.580 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+15:09:08.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+15:09:08.017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:09:08.069 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+15:09:08.162 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+15:09:08.377 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+15:09:08.385 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+15:09:08.520 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=85fbbf23-b42a-31cc-9d92-9bb0d1e30840
+15:09:10.427 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+15:09:11.173 [redisson-netty-2-19] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:09:11.173 [redisson-netty-2-31] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:09:11.848 [main] WARN  o.s.w.c.s.GenericWebApplicationContext:558- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisRepository' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisRepository' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+15:09:11.849 [main] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:09:11.849 [main] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:09:11.851 [main] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:09:11.851 [main] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:09:11.971 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:09:12.480 [main] ERROR o.s.boot.SpringApplication:826- Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisRepository' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisRepository' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$186/2134915053.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$186/2134915053.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 common frames omitted
+15:09:12.482 [main] ERROR o.s.test.context.TestContextManager:248- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1869fbd2] to prepare test instance [com.hamlt.demo.Dbest@4cddc036]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisRepository' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisRepository' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$186/2134915053.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/hamlt/demo/redis/RedisAutoConfigure.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$186/2134915053.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=redisConnectionFactory)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 58 common frames omitted
+15:10:37.851 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:10:37.851 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:10:37.916 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:10:37.916 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:10:38.010 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:10:38.010 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:10:38.031 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:10:38.031 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:10:38.034 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:10:38.034 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:10:38.045 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+15:10:38.060 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:10:38.060 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:10:39.148 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+15:10:39.152 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+15:10:39.533 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+15:10:39.537 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:10:39.583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+15:10:39.696 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+15:10:39.927 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+15:10:39.935 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+15:10:40.051 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=85fbbf23-b42a-31cc-9d92-9bb0d1e30840
+15:10:41.872 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+15:10:42.665 [redisson-netty-2-2] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:10:42.665 [redisson-netty-2-32] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:10:43.889 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:10:43.889 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:10:43.890 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:10:43.890 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:10:43.904 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:10:43.904 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:10:43.905 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:10:43.905 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:10:45.127 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+15:10:45.823 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+15:10:45.866 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:10:45.866 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:10:45.868 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:10:45.868 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:10:45.869 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:10:45.869 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:10:47.612 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+15:10:47.749 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 11.491 seconds (JVM running for 13.523)
+15:10:47.749 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 11.491 seconds (JVM running for 13.523)
+15:10:47.805 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.805 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.807 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:10:47.807 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:10:47.807 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.807 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.808 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.808 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.809 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.809 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.810 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.810 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.811 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.811 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.811 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.811 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.812 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.812 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:10:47.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:47.814 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:10:48.262 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+15:10:48.267 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:10:48.267 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:10:48.268 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:10:48.268 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:13:29.181 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:13:29.181 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:13:29.250 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:13:29.250 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:13:29.347 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:13:29.347 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:13:29.366 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:13:29.366 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:13:29.370 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:13:29.370 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:13:29.381 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+15:13:29.399 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:13:29.399 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:13:31.129 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+15:13:31.136 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+15:13:31.506 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+15:13:31.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:13:31.564 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+15:13:31.670 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+15:13:31.946 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+15:13:31.955 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+15:13:32.083 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=c91067a9-9799-306b-9f6f-3a4c731ddad1
+15:13:34.150 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+15:13:34.896 [redisson-netty-2-18] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:13:34.897 [redisson-netty-2-30] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:13:35.980 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:13:35.980 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:13:35.983 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:13:35.983 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:13:35.998 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:13:35.998 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:13:35.998 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:13:35.998 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:13:37.252 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+15:13:37.861 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+15:13:37.905 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:13:37.905 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:13:37.906 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:13:37.906 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:13:37.908 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:13:37.908 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:13:39.724 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+15:13:39.869 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 12.238 seconds (JVM running for 14.268)
+15:13:39.869 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 12.238 seconds (JVM running for 14.268)
+15:13:39.924 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.924 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.929 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:13:39.929 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:13:39.935 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.935 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.936 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.936 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.937 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.937 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.937 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.937 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.938 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.938 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.938 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.938 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.940 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.940 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:13:39.941 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:39.941 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:13:40.028 [main] ERROR o.s.test.context.TestContextManager:248- Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@291a7e3c] to prepare test instance [com.hamlt.demo.Dbest@5466a819]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.hamlt.demo.Dbest': Unsatisfied dependency expressed through field 'redisRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hamlt.demo.redis.template.RedisRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hamlt.demo.redis.template.RedisRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 28 common frames omitted
+15:13:40.060 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+15:13:40.064 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:13:40.064 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:13:40.065 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:13:40.065 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:44:17.079 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:44:17.079 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:44:17.143 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:44:17.143 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:44:17.242 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:44:17.242 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:44:17.262 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:44:17.262 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:44:17.266 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:44:17.266 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:44:17.276 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+15:44:17.291 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:44:17.291 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:44:18.291 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+15:44:18.296 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+15:44:18.678 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+15:44:18.684 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:44:18.733 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+15:44:18.849 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+15:44:19.053 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+15:44:19.063 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+15:44:19.201 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=e61ab72f-bb5d-3edc-b0f6-99d24a868d14
+15:44:20.980 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+15:44:21.980 [redisson-netty-2-16] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:44:21.981 [redisson-netty-2-30] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:44:22.061 [main] WARN  o.s.w.c.s.GenericWebApplicationContext:558- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rocketMqConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.rocketmq.client.producer.DefaultMQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+15:44:22.119 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:44:22.403 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter:40- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.apache.rocketmq.client.producer.DefaultMQProducer' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'defaultMQProducer' in 'RocketMQAutoConfiguration' not loaded because @ConditionalOnProperty (rocketmq.[name-server,producer.group]) did not find properties 'name-server', 'producer.group'
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.apache.rocketmq.client.producer.DefaultMQProducer' in your configuration.
+
+15:44:22.408 [main] ERROR o.s.test.context.TestContextManager:248- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7b420819] to prepare test instance [com.hamlt.demo.Dbest@24731caf]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rocketMqConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.rocketmq.client.producer.DefaultMQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$201/2118571592.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.rocketmq.client.producer.DefaultMQProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 41 common frames omitted
+15:46:14.331 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:46:14.331 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor:195- LOCAL_SNAPSHOT_PATH:C:\Users\zhanghaisheng\nacos\config
+15:46:14.425 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:46:14.425 [main] INFO  c.a.nacos.client.config.impl.Limiter:53- limitTime:5.0
+15:46:14.582 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:46:14.582 [main] INFO  c.a.n.client.config.utils.JVMUtil:47- isMultiInstance:false
+15:46:14.618 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:46:14.618 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service] & group[DEFAULT_GROUP]
+15:46:14.628 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:46:14.628 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder:87- Ignore the empty nacos configuration and get it based on dataId[provider-service.yaml] & group[DEFAULT_GROUP]
+15:46:14.642 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration:109- Located property source: [BootstrapPropertySource {name='bootstrapProperties-provider-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-provider-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rocketMq.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-server.yaml,DEFAULT_GROUP'}]
+15:46:14.663 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:46:14.663 [main] INFO  com.hamlt.demo.Dbest:655- The following profiles are active: local
+15:46:15.709 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+15:46:15.716 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+15:46:16.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:249- Multiple Spring Data modules found, entering strict repository configuration mode!
+15:46:16.101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:46:16.153 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187- Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+15:46:16.264 [main] WARN  o.s.boot.actuate.endpoint.EndpointId:155- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+15:46:16.468 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'ordersMapperEx' and 'com.hamlt.demo.product.mapper.ex.OrdersMapperEx' mapperInterface. Bean already defined with the same name!
+15:46:16.478 [main] WARN  o.m.s.mapper.ClassPathMapperScanner:44- Skipping MapperFactoryBean with name 'authMapperEx' and 'com.hamlt.demo.user.mapper.ex.AuthMapperEx' mapperInterface. Bean already defined with the same name!
+15:46:16.661 [main] INFO  o.s.cloud.context.scope.GenericScope:295- BeanFactory id=7925e979-a705-391b-bd3e-8f7e7f4dd0cc
+15:46:18.564 [main] INFO  org.redisson.Version:41- Redisson 3.11.5
+15:46:19.416 [redisson-netty-2-1] INFO  o.r.c.p.MasterPubSubConnectionPool:168- 1 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:46:19.426 [redisson-netty-2-19] INFO  o.r.c.pool.MasterConnectionPool:168- 24 connections initialized for 172.20.11.233/172.20.11.233:16379
+15:46:21.664 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:46:21.664 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:46:21.665 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:46:21.665 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:46:21.680 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:46:21.680 [main] WARN  c.n.c.sources.URLConfigurationSource:121- No URLs will be polled as dynamic configuration sources.
+15:46:21.681 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:46:21.681 [main] INFO  c.n.c.sources.URLConfigurationSource:122- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+15:46:22.666 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor:181- Initializing ExecutorService 'applicationTaskExecutor'
+15:46:23.319 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler:181- Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+15:46:23.370 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:46:23.370 [main] INFO  com.alibaba.nacos.client.naming:56- initializer namespace from System Property :null
+15:46:23.372 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:46:23.372 [main] INFO  com.alibaba.nacos.client.naming:65- initializer namespace from System Environment :null
+15:46:23.375 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:46:23.375 [main] INFO  com.alibaba.nacos.client.naming:75- initializer namespace from System Property :null
+15:46:25.222 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver:58- Exposing 2 endpoint(s) beneath base path '/actuator'
+15:46:25.414 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 13.156 seconds (JVM running for 15.376)
+15:46:25.414 [main] INFO  com.hamlt.demo.Dbest:61- Started Dbest in 13.156 seconds (JVM running for 15.376)
+15:46:25.497 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.497 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.503 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:46:25.503 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service, group=DEFAULT_GROUP, cnt=1
+15:46:25.503 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.503 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.504 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.504 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.505 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.505 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] server.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.505 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.505 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=server.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.506 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] rocketMq.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.506 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] rocketMq.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.506 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=rocketMq.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.506 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=rocketMq.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.506 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.506 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] provider-service-local.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.507 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.507 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=provider-service-local.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.508 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.508 [main] INFO  c.a.n.c.config.impl.ClientWorker:202- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [subscribe] redis.yaml+DEFAULT_GROUP+cc08db4d-26de-4db8-946a-fefbe4851fec
+15:46:25.508 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:25.508 [main] INFO  c.a.n.client.config.impl.CacheData:79- [fixed-localhost_8849-cc08db4d-26de-4db8-946a-fefbe4851fec] [add-listener] ok, tenant=cc08db4d-26de-4db8-946a-fefbe4851fec, dataId=redis.yaml, group=DEFAULT_GROUP, cnt=1
+15:46:26.122 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor:218- Shutting down ExecutorService 'applicationTaskExecutor'
+15:46:26.210 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:10911] result: true
+15:46:26.213 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:12911] result: true
+15:46:26.213 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:9876] result: true
+15:46:26.214 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:11911] result: true
+15:46:26.214 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:13911] result: true
+15:46:26.281 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:10911] result: true
+15:46:26.282 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:9877] result: true
+15:46:26.282 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:11911] result: true
+15:46:26.283 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:12911] result: true
+15:46:26.283 [NettyClientSelector_1] INFO  RocketmqRemoting:95- closeChannel: close the connection to remote address[172.20.11.233:13911] result: true
+15:46:26.284 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:46:26.284 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:46:26.285 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...
+15:46:26.285 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource:2003- {dataSource-0} closing ...

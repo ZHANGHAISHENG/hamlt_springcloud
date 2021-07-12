@@ -1,0 +1,12 @@
+server:
+  port: 8085
+
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8066
+    executor:
+      appname: job-test
+      port: 8885
+      logpath: /data/project/dev_run/jobhandler/job
+      logretentiondays: -1

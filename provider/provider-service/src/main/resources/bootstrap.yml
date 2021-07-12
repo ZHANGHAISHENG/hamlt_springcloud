@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: provider-service
+  cloud:
+    nacos:
+      discovery:
+      config:
+        # 加载项目配置
+        file-extension: yaml
+        # 加载全局配置
+        extension-configs[0]:
+          data-id: server.yaml
+          refresh: true
+

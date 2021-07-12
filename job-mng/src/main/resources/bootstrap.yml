@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: job-mng
+  cloud:
+    nacos:
+      discovery:
+      config:
+        # 加载项目配置
+        file-extension: yaml
+
+

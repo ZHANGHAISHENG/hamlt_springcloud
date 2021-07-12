@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: consumer-service
+  cloud:
+    nacos:
+      discovery:
+        #server-addr: ${hamlt.nacos.discovery.server-addr}
+      config:
+        #server-addr: ${hamlt.nacos.config.server-addr}
+        # 加载项目配置
+        file-extension: yaml
+        # 加载全局配置
+        extension-configs[0]:
+          data-id: server.yaml
+          refresh: true
+
+
+
+
+
+
+
